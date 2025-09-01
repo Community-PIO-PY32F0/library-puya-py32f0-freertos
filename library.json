@@ -1,0 +1,25 @@
+{
+    "name": "FreeRTOS",
+    "description": "Patched version of FreeRTOS v10.5.1 for PUYA PY32F0 microcontrollers.",
+    "keywords": "freertos, rtos, scheduler, puya, py32f0",
+    "authors": [
+        {
+            "name": "Glebka",
+            "email": "Glebka@users.noreply.github.com",
+            "maintainer": true
+        },
+        {
+            "name": "FreeRTOS Authors",
+            "url": "https://www.FreeRTOS.org"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Community-PIO-PY32F0/library-puya-py32f0-freertos.git"
+    },
+    "version": "0.0.1",
+    "homepage": "https://www.FreeRTOS.org",
+    "platforms": ["puya32f0"],
+    "frameworks": ["puya-py32f0-hal-sdk", "puya-py32f0-ll-sdk"],
+    "examples": []
+}
