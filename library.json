@@ -21,5 +21,18 @@
     "homepage": "https://www.FreeRTOS.org",
     "platforms": ["puya32f0"],
     "frameworks": ["puya-py32f0-hal-sdk", "puya-py32f0-ll-sdk"],
-    "examples": []
+    "examples": [],
+    "build": {
+        "srcDir": "FreeRTOS",
+        "srcFilter": [
+            "-<portable/MemMang/heap_1.c>",
+            "-<portable/MemMang/heap_2.c>",
+            "-<portable/MemMang/heap_3.c>",
+            "-<portable/MemMang/heap_5.c>"
+        ],
+        "flags": [
+            "-I<build.srcDir>/include",
+            "-I<build.srcDir>/portable/GCC/ARM_CM0"
+        ]
+    }
 }
